@@ -1,4 +1,4 @@
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
 Flask==1.1.1
 gunicorn==19.9.0
 itsdangerous==1.1.0
@@ -16,4 +16,4 @@ gensim
 spacy
 textblob
 sumy
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.1.0/en_vectors_web_lg-2.1.0.tar.gz
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_vectors_web_lg-2.1.0/en_vectors_web_lg-2.1.0.tar.gz
