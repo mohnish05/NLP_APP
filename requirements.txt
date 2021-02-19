@@ -15,4 +15,4 @@ spacy==2.3.5
 sumy
 textblob
 gensim
-
+en_core_web_sm
