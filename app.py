@@ -7,7 +7,7 @@
 import streamlit as st
 import os
 import spacy
-#import en_core_web_sm
+import en_core_web_sm
 # NLP Pkgs
 from textblob import TextBlob
 from IPython import get_ipython
