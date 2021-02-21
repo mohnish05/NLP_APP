@@ -33,7 +33,7 @@ def sumy_summarizer(docx):
 # Function to Analyse Tokens and Lemma
 
 def text_analyzer(my_text):
-    nlp = spacy.load('en_core_web_sm')
+    nlp = en_core_web_sm()#spacy.load('en_core_web_sm')
     docx = nlp(my_text)
     # tokens = [ token.text for token in docx]
     allData = [('"Token":{},\n"Lemma":{}'.format(token.text, token.lemma_)) for token in docx]
@@ -43,7 +43,7 @@ def text_analyzer(my_text):
 # Function For Extracting Entities
 
 def entity_analyzer(my_text):
-    nlp = spacy.load('en_core_web_sm')
+    nlp = en_core_web_sm()#spacy.load('en_core_web_sm')
     docx = nlp(my_text)
     tokens = [token.text for token in docx]
     entities = [(entity.text, entity.label_) for entity in docx.ents]
