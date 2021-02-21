@@ -15,6 +15,6 @@ gensim
 spacy
 textblob
 sumy
-./en_core_web_sm-2.2.5.tar.gz
+
 
 
